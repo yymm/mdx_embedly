@@ -31,9 +31,9 @@ class PyTest(TestCommand):
 
 
 setup(
-    name='sample',
+    name='mdx_embedly',
     version='0.1.0',
-    description='',
+    description='Python Markdown extension for embeded url using Embedly',
     long_description=long_description,
     url='https://github.com/yymm/mdx_embedly',
     author='yymm',
@@ -47,16 +47,13 @@ setup(
         'Development Status :: 3 - Alpha',
         # Indicate who your project is intended for
         'Intended Audience :: Developers',
-        'Topic :: Software Development :: Build Tools',
+        'Topic :: Text Processing :: Markup :: HTML',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.2',
         'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
     ],
     keywords='Markdown',
     packages=find_packages(exclude=['contrib', 'docs', 'tests']),

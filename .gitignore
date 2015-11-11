@@ -9,3 +9,4 @@ pip-selfcheck.json
 *.egg-info
 __pycache__
 .coverage
+dist

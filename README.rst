@@ -7,6 +7,12 @@ Embedly Extension for Python-Markdown
 .. image:: https://coveralls.io/repos/yymm/mdx_embedly/badge.svg?branch=master&service=github
   :target: https://coveralls.io/github/yymm/mdx_embedly?branch=master
 
+.. image:: https://img.shields.io/pypi/v/nine.svg
+  :target: https://pypi.python.org/pypi/mdx_embedly
+
+.. image:: https://img.shields.io/github/license/mashape/apistatus.svg
+  :target: https://opensource.org/licenses/MIT
+
 A Python-Markdown extension for embeded url using `Embedly <http://embed.ly/>`_ .
 
 .. code::
