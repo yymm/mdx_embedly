@@ -11,6 +11,9 @@ Embedly Extension for Python-Markdown
 .. image:: .. image:: https://img.shields.io/pypi/v/mdx_embedly.svg
   :target: https://pypi.python.org/pypi/mdx_embedly
 
+.. image:: https://img.shields.io/pypi/pyversions/mdx_embedly.svg
+  :target: https://pypi.python.org/pypi/mdx_embedly
+
 .. image:: https://img.shields.io/badge/license-MIT-blue.svg
   :target: https://opensource.org/licenses/MIT
 
