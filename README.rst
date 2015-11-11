@@ -8,7 +8,7 @@ Embedly Extension for Python-Markdown
 .. image:: https://coveralls.io/repos/yymm/mdx_embedly/badge.svg?branch=master&service=github
   :target: https://coveralls.io/github/yymm/mdx_embedly?branch=master
 
-.. image:: .. image:: https://img.shields.io/pypi/v/mdx_embedly.svg
+.. image:: https://img.shields.io/pypi/v/mdx_embedly.svg
   :target: https://pypi.python.org/pypi/mdx_embedly
 
 .. image:: https://img.shields.io/badge/license-MIT-blue.svg
