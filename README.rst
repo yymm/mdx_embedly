@@ -1,6 +1,12 @@
 Embedly Extension for Python-Markdown
 =====================================
 
+.. image:: https://travis-ci.org/yymm/mdx_embedly.svg?branch=master
+  :target: https://travis-ci.org/yymm/mdx_embedly
+
+.. image:: https://coveralls.io/repos/yymm/mdx_embedly/badge.svg?branch=master&service=github
+  :target: https://coveralls.io/github/yymm/mdx_embedly?branch=master
+
 A Python-Markdown extension for embeded url using `Embedly <http://embed.ly/>`_ .
 
 .. code::
@@ -36,3 +42,7 @@ Usage for Pelican
 -----------------
 
 .. code:: python
+
+  MD_EXTENSIONS = ['embedly']
+
+In pelicanconf.py.
