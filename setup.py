@@ -32,13 +32,14 @@ class PyTest(TestCommand):
 
 setup(
     name='mdx_embedly',
-    version='0.1.0',
+    version='0.2.0',
     description='Python Markdown extension for embeded url using Embedly',
     long_description=long_description,
     url='https://github.com/yymm/mdx_embedly',
     author='yymm',
     author_email='yuya.yano.6260@gmail.com',
     license='MIT',
+    py_modules=['mdx_embedly'],
     classifiers=[
         # How mature is this project? Common values are
         #   3 - Alpha
