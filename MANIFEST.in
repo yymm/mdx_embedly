@@ -1,0 +1,6 @@
+include README.rst
+include tox.ini
+include setup.cfg
+recursive-include docs *
+recursive-include tests *
+include sample/*.dat
