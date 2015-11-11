@@ -11,5 +11,5 @@ install:
 
 script:
     - tox
-    - coverage --source=mdx_embedly  setup.py test
+    - coverage --verbose
 after_success: coveralls
