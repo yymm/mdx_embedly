@@ -10,6 +10,6 @@ install:
   - pip install coveralls
 
 script:
-    tox
-    coverage --source=mdx_embedly  setup.py test
+    - tox
+    - coverage --source=mdx_embedly  setup.py test
 after_success: coveralls
