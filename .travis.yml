@@ -9,5 +9,7 @@ install:
   - pip install tox
   - pip install coveralls
 
-script: tox
+script:
+    tox
+    coverage --source=mdx_embedly  setup.py test
 after_success: coveralls
