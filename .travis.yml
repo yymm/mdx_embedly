@@ -8,8 +8,10 @@ env:
 install:
   - pip install tox
   - pip install coveralls
+  - pip install markdown
 
 script:
     - tox
-    - coverage --verbose
+    - coverage run --source=mdx_embedly setup.py test
+    - coverage report -m
 after_success: coveralls
