@@ -30,7 +30,7 @@ class EmbedlyPostprocesser(Postprocessor):
         title = "embed.ly"
         return """
 <a class="embedly-card" href="{0}">{1}</a>
-<script async src="//cdn.embedly.com/widgets/platform.js"charset="UTF-8"></script>
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 """.format(url, title)
 
 

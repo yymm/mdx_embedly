@@ -7,7 +7,7 @@ def test_embedly():
     expected = """
 <p>
 <a class="embedly-card" href="https://github.com/yymm">embed.ly</a>
-<script async src="//cdn.embedly.com/widgets/platform.js"charset="UTF-8"></script>
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 </p>
     """.strip()
     html = markdown.markdown(s, extensions=[EmbedlyExtension()])
